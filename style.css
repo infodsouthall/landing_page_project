@@ -10,10 +10,11 @@ body {
 }
 
 .container {
-    display: grid;
+    display: flex;
     justify-content: center;
     width: min(95%, 70rem);
     margin-inline: auto;
+    flex-flow: column nowrap;
     
 }
 
