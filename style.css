@@ -151,10 +151,37 @@ strong.headerTopSection {
 
 .section2 {
     background-color: #e5e7eb;
-    padding: 2rem 6rem;
+    padding: 2rem 12rem;
     display: flex;
     justify-content: center;
   }
+
+  @media (min-width: 0em) {
+    .section2 {
+     padding: 2em 2em; 
+     justify-content: center;         
+   }
+}
+@media (min-width: 25em) {
+    .section2 {
+     padding: 2em 3em; 
+     justify-content: center;         
+   }
+}
+
+@media (min-width: 35em) {
+    .section2 {
+     padding: 2em 5em; 
+     justify-content: center;         
+   }
+}
+@media (min-width: 55em) {
+    .section2 {
+     padding: 2em 16em; 
+     justify-content: center;  
+            
+   }
+}
 
 button.signUpTop, button.signUpBottom {
     background-color: #3882F6;
@@ -181,7 +208,7 @@ button.signUpBottom:hover {
 
 button.signUpBottom {
     border:.2rem solid #f9faf8;
-    font-size: min(95%, .5rem);
+    font-size: min(95%, 2rem);
 }
 
 .bottomSignUpBox {    
@@ -206,7 +233,17 @@ button.signUpBottom {
 @media (min-width: 20em) {
     .bottomSignUpBox {
      padding: 2em; 
-     justify-content: flex-end;  
+     justify-content: center;  
+     display: unset;
+     gap: 2em;       
+   }
+}
+
+@media (min-width: 35em) {
+    .bottomSignUpBox {
+     padding: 2em; 
+     justify-content: center;  
+     display: flex;
      gap: 2em;       
    }
 }
