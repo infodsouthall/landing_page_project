@@ -147,13 +147,14 @@ button.signUpBottom:hover {
 
 button.signUpBottom {
     border:.2rem solid #f9faf8;
+    font-size: min(95%, .5rem);
 }
 
 .bottomSignUpBox {    
     background-color: #3882F6;
     border-radius: 1rem;
     color: #fff;
-    padding: 1em 2em;
+    padding: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
