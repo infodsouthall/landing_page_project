@@ -77,7 +77,7 @@ img.logo {
 img.logoTopSection {
     border: .2em solid #1F2937;
     border-radius: 1.5rem;
-    width: min(95%, 10rem);
+    width: 10rem;
     height: auto;
 }
 
@@ -97,9 +97,10 @@ strong.headerTopSection {
     background-color: #fff;
     justify-content: center;
     padding: 3rem 10rem 3rem 10rem;
-    display: grid;
+    display: flex;
+    flex-flow: row wrap;
     gap: 1.5rem;
-    grid-template-columns: 1fr;
+    justify-content: center;
   }
 
   .topSection {
@@ -109,7 +110,7 @@ strong.headerTopSection {
   ul.topSection {
       list-style: none;
       text-decoration: none;
-      display: grid;
+      display: flex;
       padding: 0;
       grid-template-columns: repeat(4, 1fr);
       justify-items: center;
