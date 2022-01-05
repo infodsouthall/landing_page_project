@@ -59,17 +59,44 @@ header ul, footer ul{
 .headerInfo {
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 2rem 4rem;
-    display: flex;
+    padding: 2rem 6rem;
     gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap;
 }
 
+@media (min-width: 0em) {
+    .headerInfo {
+            padding: .5em;
+          justify-items: center;          
+        }
+    }
+
+@media (min-width: 20em) {
+    .headerInfo {
+            padding: 1rem 3rem;
+          justify-items: center;          
+        }
+    }
+    @media (min-width: 35em) {
+        .headerInfo {
+                padding: 2rem 6rem;
+              justify-items: flex-end;          
+            }
+        }
+
 .grid-col-span-2 {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    display: grid;
+    align-items: center;
 }
+
+@media (min-width: 0em) {
+    .bottomSignUpBox {
+     padding: .5em; 
+     justify-content: center;         
+   }
+}
+
+
 
 img.logo {
     border: .1em solid #f9faf8;
@@ -168,10 +195,32 @@ button.signUpBottom {
     flex-flow: row wrap;
 }
 
+
+@media (min-width: 0em) {
+    .bottomSignUpBox {
+     padding: .5em; 
+     justify-content: center;         
+   }
+}
+
+@media (min-width: 20em) {
+    .bottomSignUpBox {
+     padding: 2em; 
+     justify-content: flex-end;  
+     gap: 2em;       
+   }
+}
+
 p.copyright {
       color: aliceblue;
       font-size: .8rem;
 }
+
+p.headerStyle {    
+    padding: 0;
+    margin: 0;
+}
+
 
 em.southall {
       color: greenyellow;
