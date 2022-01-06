@@ -249,8 +249,10 @@ button.signUpBottom {
 }
 
 p.copyright {
-      color: aliceblue;
-      font-size: .8rem;
+    color: aliceblue;
+    font-size: .8rem;
+    display: grid;
+    justify-items: center;
 }
 
 p.headerStyle {    
