@@ -232,16 +232,25 @@ button.signUpBottom {
 
 @media (min-width: 20em) {
     .bottomSignUpBox {
-     padding: 2em; 
+     padding: 2em 2em; 
      justify-content: center;  
      display: unset;
      gap: 2em;       
    }
 }
 
-@media (min-width: 35em) {
+@media (min-width: 28em) {
     .bottomSignUpBox {
-     padding: 2em; 
+     padding: 2em 2em; 
+     justify-content: center;  
+     display: unset;
+     gap: 2em;       
+   }
+}
+
+@media (min-width: 65em) {
+    .bottomSignUpBox {
+     padding: 2em 8em;
      justify-content: center;  
      display: flex;
      gap: 2em;       
